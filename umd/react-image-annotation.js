@@ -2704,7 +2704,6 @@ var Target = Items;
     if (this.props.allowTouch) {
       this.addTargetTouchEventListeners();
     }
-    console.log(this.targetRef.current);
   };
 
   Annotation.prototype.componentDidUpdate = function componentDidUpdate(prevProps) {

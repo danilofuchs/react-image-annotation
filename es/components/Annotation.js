@@ -156,7 +156,6 @@ export default compose(isMouseHovering(), withRelativeMousePos())((_temp2 = _cla
     if (this.props.allowTouch) {
       this.addTargetTouchEventListeners();
     }
-    console.log(this.targetRef.current);
   };
 
   Annotation.prototype.componentDidUpdate = function componentDidUpdate(prevProps) {
