@@ -93,9 +93,7 @@ export default compose(
   componentDidMount() {
     if (this.props.allowTouch) {
       this.addTargetTouchEventListeners();
-
     }
-    console.log(this.targetRef.current)
   }
 
   addTargetTouchEventListeners = () => {
